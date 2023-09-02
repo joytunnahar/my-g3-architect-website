@@ -12,8 +12,9 @@ font-family: 'Work Sans', sans-serif;
     border-radius: 8px;
     font-weight: 700;
     font-size: 1rem;
-    padding: 10px 20px;
+    padding:  20px;
     border: 0;
+    cursor: pointer;
 
 }
 
@@ -76,4 +77,27 @@ li > a:hover{
 .banner img{
     width: 100%;
     margin-top: 70px;
+}
+
+
+
+
+
+/* resposive styles */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media screen  and (min-width: 576px) and (max-width: 992px) {
+    header{
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }  
 }
